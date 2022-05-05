@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 #wrapper-header {
     width: 1000px;
     padding: 2%;
@@ -15,6 +19,14 @@
     border-radius: 25px;
 }
 
+#header a{
+    color: gold;
+}
+
+#header a:hover{
+    color: white;
+}
+
 #header ul {
     display: flex;
     justify-content: center;
@@ -25,12 +37,6 @@
 
 #header ul li i{
     margin-right: 5px;
-    color: gold;
-}
-
-
-#header ul li i:hover{
-    color: white;
 }
 
 #header li {
@@ -84,6 +90,10 @@
 
 #wrapper-main #sidebar h1 i{
     margin-right: 15px;
+}
+
+#wrapper-main #sidebar h3:hover {
+    color: gold;
 }
 
 #main {
